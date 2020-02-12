@@ -1,0 +1,16 @@
+example commands for training
+
+python train_policy.py --n_epochs=50 --batch_size=256 --weights_out_file=./weights/learner_0_supervised_learning.weights --train_dir=./dataset/train/ --weighted_loss=True --policy=OriginalDrivingPolicy --output_log=True
+python train_policy.py --n_epochs=50 --batch_size=256 --weights_out_file=./weights/learner_0_recurrent_network.weights --train_dir=./dataset/train/ --weighted_loss=True --policy=RecurrentNetwork --output_log=True
+python train_policy.py --n_epochs=50 --batch_size=256 --weights_out_file=./weights/learner_0_attention_network.weights --train_dir=./dataset/train/ --weighted_loss=True --policy=AttentionNetwork --output_log=True
+python train_policy.py --n_epochs=50 --batch_size=256 --weights_out_file=./weights/learner_0_recurrent_attention.weights --train_dir=./dataset/train/ --weighted_loss=True --policy=RecurrentAttention --output_log=True
+
+
+
+python dagger2.py --policy=OriginalDrivingPolicy 
+python dagger2.py --policy=RecurrentNetwork
+python dagger2.py --policy=AttentionNetwork
+python dagger2.py --policy=RecurrentAttention
+
+
+python train_policy.py --n_epochs=50 --batch_size=256 --weights_out_file=./weights_decay0005/learner_0_attention_network.weights --train_dir=./dataset/train/ --weighted_loss=True --policy=AttentionNetwork --output_log=True
