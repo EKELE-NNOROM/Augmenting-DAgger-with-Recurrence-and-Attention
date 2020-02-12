@@ -1,5 +1,5 @@
 # Augmenting-DAgger-with-Recurrence-and-Attention
- Attention and Recurrence for DAgger
+ Attention and Recurrence for DAgger using Pytorch
 
 ![GitHub Logo](/simulator_image.PNG)
 
