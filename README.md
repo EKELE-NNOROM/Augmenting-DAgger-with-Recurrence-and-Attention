@@ -1,6 +1,8 @@
 # Augmenting-DAgger-with-Recurrence-and-Attention
  Attention and Recurrence for DAgger
- 
+
+![GitHub Logo](/simulator_image.PNG)
+
 MEng. Project Electrical and Computer Engineering 
 University of Toronto, St. George 
 Ekeledirichukwu C. Nnorom 
